@@ -1,14 +1,16 @@
 {
-  "name": "slepsk-prod",
+  "name": "slepsk-prod-api",
   "version": "1.0.0",
-  "description": "Jira Epic cloner / API",
+  "private": true,
+  "type": "commonjs",
   "main": "server.js",
-  "type": "module",
+  "engines": { "node": ">=18" },
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "axios": "^1.6.7",
-    "express": "^4.18.2"
+    "express": "^4.19.2",
+    "axios": "^1.7.0",
+    "cors": "^2.8.5"
   }
 }
